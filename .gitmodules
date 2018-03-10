@@ -1,0 +1,3 @@
+[submodule "qpdf"]
+	path = qpdf
+	url = https://github.com/qpdf/qpdf.git

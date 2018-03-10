@@ -1,0 +1,26 @@
+{
+  "name": "libqpdf",
+  "version": "0.1.0",
+  "description": "libqpdf native binding for nodejs",
+  "homepage": "https://github.com/smilingthax/node-libqpdf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smilingthax/node-libqpdf"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libqpdf",
+    "qpdf",
+    "pdf"
+  ],
+  "author": "Tobias Hoffmann",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "nan": "^2.9.2",
+    "node-gyp": "^3.6.2"
+  }
+}
