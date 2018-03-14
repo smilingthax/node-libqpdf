@@ -1,6 +1,9 @@
 #ifndef helper_hh_
 #define helper_hh_
 
+#include <nan.h>
+#include <string>
+
 #include <stdexcept>
 
 void JsThrow(const std::exception &e);
@@ -14,5 +17,8 @@ void JsThrow();
   } catch (...) {                     \
     JsThrow();                        \
   }
+
+v8::Local<v8::String> ToString(const std::string &str);
+v8::Local<v8::Object> ToBuffer(const std::string &str);
 
 #endif
