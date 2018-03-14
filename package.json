@@ -1,6 +1,6 @@
 {
   "name": "libqpdf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "libqpdf native binding for nodejs",
   "homepage": "https://github.com/smilingthax/node-libqpdf",
   "repository": {
